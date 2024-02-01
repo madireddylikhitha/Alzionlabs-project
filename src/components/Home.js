@@ -34,8 +34,8 @@ export default function Home({ navigation }) {
                         <Image source={require('../assets/images/heart.png')} />
                     </View>
                 </View>
-                <View style={{ position: 'absolute', left: 100, top: 10 }}>
-                    <Image source={{ uri: item.image }} style={{ height: 150, width: 150 }} />
+                <View style={{ position: 'absolute', left: 150, top: 10 }}>
+                    <Image source={{ uri: item.image }} style={{ height: 180, width: 150 }} />
                 </View>
             </TouchableOpacity>
         );
